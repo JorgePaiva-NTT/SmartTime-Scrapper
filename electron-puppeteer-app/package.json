@@ -1,0 +1,21 @@
+{
+  "name": "electron-puppeteer-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron .",
+    "postinstall": "puppeteer browsers install chrome",
+    "build:win": "electron-builder -w"
+  },
+  "devDependencies": {
+    "electron-builder": "^24.13.3"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "electron": "^38.1.2",
+    "puppeteer": "^24.22.0"
+  }
+}
